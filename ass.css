@@ -1,0 +1,57 @@
+
+    body{ 
+        background: url(download.png); 
+        
+
+        overflow: hidden;
+    } 
+    .Bycycle{ 
+        position: absolute;
+        top: 30px;
+        right: -300px; 
+        z-index: 99;
+        animation: Bycycle 5s linear 0s infinite reverse;
+
+    }
+    @keyframes Bycycle { 
+        to { right: -500;}
+        from{right: 102%;} 
+
+        
+    } 
+    .Bycycle img{ 
+        width: 150px;
+    } 
+    .Bycycle1{ 
+        position: absolute;
+        top: 200px;
+        right: -300px; 
+        z-index: 99;
+        animation: Bycycle 9s linear 0s infinite reverse;
+
+    }
+    @keyframes Bycycle { 
+        to { right: -500;}
+        from{right: 102%;} 
+
+        
+    }  
+    .Bycycle2{ 
+        position: absolute;
+        top: 350px;
+        right: -300px; 
+        z-index: 99;
+        animation: Bycycle 8s linear 0s infinite reverse;
+
+    } 
+    .Bycycle3{ 
+        position: absolute;
+        top: 400px;
+        right: -300px; 
+        z-index: 99;
+        animation: Bycycle 7s linear 0s infinite reverse;
+
+    }
+
+
+
